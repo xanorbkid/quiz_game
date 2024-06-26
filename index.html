@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Quiz Game</h1>
+        <div id="quiz-container" class="mt-4">
+            <!-- Step 1: Quiz Settings -->
+            <div id="quiz-settings" class="mb-4">
+                <label for="question-type">Select Question Type:</label>
+                <select id="question-type" class="form-control mb-2">
+                    <option value="all">All</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="js">JavaScript</option>
+                </select>
+                <label for="question-count">Select Number of Questions:</label>
+                <input type="number" id="question-count" class="form-control" min="5" max="25" value="5">
+                <button id="start-quiz" class="btn btn-primary mt-3">Start Quiz</button>
+            </div>
+            
+            <!-- Step 2: Quiz Questions and Timer -->
+            <div id="quiz-questions" class="mb-4" style="display: none;"></div>
+            <div id="quiz-timer" class="mt-2" style="display: none;">Time Left: <span id="time-left">60</span> seconds</div>
+            <button id="submit-quiz" class="btn btn-success mt-3" style="display: none;">Submit Quiz</button>
+            
+            <!-- Step 3: Quiz Result -->
+            <div id="quiz-result" class="mt-4" style="display: none;">
+            </div>
+            
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="assets/script.js"></script>
+</body>
+</html>

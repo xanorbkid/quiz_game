@@ -1,0 +1,69 @@
+{
+    "html": {
+      "q1": {
+        "question": "What does HTML stand for?",
+        "choices": {
+          "a": "Hyper Text Markup Language",
+          "b": "Home Tool Markup Language",
+          "c": "Hyperlinks and Text Markup Language",
+          "d": "Hyper Tool Markup Language"
+        },
+        "correctAnswer": "a"
+      },
+      "q2": {
+        "question": "Which HTML tag is used to define an internal style sheet?",
+        "choices": {
+          "a": "<script>",
+          "b": "<style>",
+          "c": "<css>",
+          "d": "<link>"
+        },
+        "correctAnswer": "b"
+      }
+    },
+    "css": {
+      "q1": {
+        "question": "Which property is used to change the background color?",
+        "choices": {
+          "a": "color",
+          "b": "background-color",
+          "c": "bgcolor",
+          "d": "background"
+        },
+        "correctAnswer": "b"
+      },
+      "q2": {
+        "question": "Which CSS property controls the text size?",
+        "choices": {
+          "a": "font-style",
+          "b": "text-size",
+          "c": "font-size",
+          "d": "text-style"
+        },
+        "correctAnswer": "c"
+      }
+    },
+    "js": {
+      "q1": {
+        "question": "Which company developed JavaScript?",
+        "choices": {
+          "a": "Mozilla",
+          "b": "Netscape",
+          "c": "Sun Microsystems",
+          "d": "Oracle"
+        },
+        "correctAnswer": "b"
+      },
+      "q2": {
+        "question": "How do you write 'Hello World' in an alert box?",
+        "choices": {
+          "a": "alertBox('Hello World');",
+          "b": "msg('Hello World');",
+          "c": "alert('Hello World');",
+          "d": "msgBox('Hello World');"
+        },
+        "correctAnswer": "c"
+      }
+    }
+  }
+  
